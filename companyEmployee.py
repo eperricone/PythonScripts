@@ -8,7 +8,7 @@ class Company_employees():
 
 
     def greetings(self):
-        """starting greeting function"""
+        """starting greeting function for applicant"""
         print("Hello " + self.name + " so nice to meet you! Welcome to Mohawk")
         if self.gender == "female":
             print("Mohawk has some of the most world renowned female scholars! " +
