@@ -1,4 +1,5 @@
 class Conduct():
+    """creation of class to punishment code violations"""
 
     def __init__(self, name, gender, violation):
         """Initialize name, gender, and violation"""
