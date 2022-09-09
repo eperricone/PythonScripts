@@ -1,5 +1,7 @@
 class WorkEligibility:
+    """Creating program to instruct potential applicants of said company, over eligibility of application"""
     def __init__(self, first_name, company_name, position_name):
+        """Initializing attribiutes"""
         self.first_name = first_name
         self.company_name = company_name
         self.position_name = position_name
@@ -8,6 +10,7 @@ class WorkEligibility:
     print(note)
 
     def questionnaire(self):
+        """Input function created to interact with user. Program will procede to tell user about eligibility of application"""
         prompt_1 = "Do you have a 4 year degree?"
         prompt_1 += "\n(Enter 'Yes' or 'No' to question)"
         prompt_2 = "Do you have 3 years of work experience?"
